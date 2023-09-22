@@ -35,29 +35,21 @@
 1. Database Connection:
     * Using the mysql.connector library, a connection to the MySQL server is established.
     * It connects with the hostname localhost, the user root, and the specified password.
-
 2. Database Creation:
     * If a database named studentDB does not already exist, it gets created.
-
 3. Setting Active Database:
     * The script then uses the studentDB for further operations.
-
 4. Table Creation:
     * Inside the studentDB database, a table named students is created if it doesn't already exist.
     * This table has the following columns: student_id (auto-incremented primary key), first_name, last_name, age, and grade.
-
 5. Inserting a Record:
     * A student record with details "Alice Smith", age 18, and grade 95.5 is inserted into the students table.
-
 6. Updating a Record:
     * The grade of the student with the first name "Alice" is updated to 97.0.
-
 7. Deleting a Record:
     * The student with the last name "Smith" is deleted from the students table.
-
 8. Fetching and Displaying Records:
     * The script fetches all records from the students table.
     * Each student record is then printed to the console.
-
 9. Closing the Connection:
     * The cursor and the connection to the MySQL server are closed, ending the database operations.
