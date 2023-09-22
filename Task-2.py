@@ -1,5 +1,6 @@
 '''
 Task 2: Generate Fibonacci Series
+
 Problem Statement:
 Write a Python program that generates the Fibonacci sequence up to a specified number of
 terms, n. The Fibonacci sequence starts with 0 and 1, and each subsequent number in the
